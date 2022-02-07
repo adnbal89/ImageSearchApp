@@ -18,7 +18,7 @@ data class UnsplashPhoto(
         val regular: String,
         val small: String,
         val thumb: String
-        ) : Parcelable
+    ) : Parcelable
 
     @Parcelize
     data class UnsplashUser(
